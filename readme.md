@@ -2,7 +2,7 @@
 ### After crash or power loss windows file explorer won't restore previous folders after login.
 I made it for myself for my needs. It's done 'quick and dirty'.
 You are free to download the tool and use it for your private porpuses.
-If you modify this programm and you want to share it, make a branch.
+If you modify this program and you want to share it, make a branch.
 You have to include link to original repository on the top as shown below:
 Oryginal repository: [link]
 ## How to use (How I use it.)
