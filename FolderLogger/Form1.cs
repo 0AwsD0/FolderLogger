@@ -28,11 +28,11 @@ namespace FolderLogger
 
                  while (data != null)
                  {
-                     Console.WriteLine(data);
-                     data = Reader.ReadLine();
                      //Process.Start(@"C:\Windows\explorer.exe");
                      Process.Start("explorer.exe", data);
-                 }
+                     //Console.WriteLine(data);
+                     data = Reader.ReadLine();
+                }
 
                  Reader.Close();
 
@@ -146,6 +146,12 @@ namespace FolderLogger
         private void button2_Click(object sender, EventArgs e)
         {
             recovery();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FileWrite(1);
+            FileWrite(2);
         }
     }
 }
