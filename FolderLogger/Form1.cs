@@ -29,12 +29,12 @@ namespace FolderLogger
                  while (data != null)
                  {
                      //Process.Start(@"C:\Windows\explorer.exe");
-                     Process.Start("explorer.exe", data);
+                     Process.Start("explorer.exe", '"'+data+'"');
                      //Console.WriteLine(data);
                      data = Reader.ReadLine();
                 }
 
-                 Reader.Close();
+                Reader.Close();
 
             }
              catch (Exception e)
