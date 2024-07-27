@@ -6,4 +6,6 @@ build_property.ApplicationHighDpiMode =
 build_property.ApplicationUseCompatibleTextRendering = 
 build_property.ApplicationVisualStyles = 
 build_property.RootNamespace = FolderLogger
-build_property.ProjectDir = M:\Projekty\PROJEKTY 2022\C#\FolderLogger\FolderLogger\
+build_property.ProjectDir = M:\Projekty\PROJEKTY 2022\C#\FolderLogger — kopia\FolderLogger\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -8,6 +8,8 @@ Original repository: [link]
 ## How to use (How I use it.)
 Put shortcut to the FolderLogger .exe from 
 ```sh
+'FolderLogger\FolderLogger\bin\Debug\net8.0-windows10.0.17763.0'
+ or for legacy systems:
 'FolderLogger\FolderLogger\bin\Debug\netcoreapp3.1'
 ```
 Into your startup directory:

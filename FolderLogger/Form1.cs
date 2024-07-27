@@ -29,12 +29,12 @@ namespace FolderLogger
                  while (data != null)
                  {
                      //Process.Start(@"C:\Windows\explorer.exe");
-                     Process.Start("explorer.exe", '"'+data+'"');
+                     Process.Start("explorer.exe", "\""+data+"\"");
                      //Console.WriteLine(data);
                      data = Reader.ReadLine();
-                }
+                 }
 
-                Reader.Close();
+                 Reader.Close();
 
             }
              catch (Exception e)
@@ -97,7 +97,7 @@ namespace FolderLogger
         private void FileWrite(int filenumber)
         {
             StreamWriter File = new StreamWriter("list" + filenumber + ".txt");
-            string date = DateTime.Now.ToString("yyyyMMdd_hhmmss");
+            string date = DateTime.Now.ToString("yyyy:MM:dd_HH:mm:ss");
 
             foreach (SHDocVw.InternetExplorer window in new SHDocVw.ShellWindows())
             {
@@ -108,6 +108,7 @@ namespace FolderLogger
                     try
                     {
                         File.WriteLine(new Uri(window.LocationURL).LocalPath);
+                        date = date.Replace(':', '-');
                         label7.Text = "Save complite. Time: " + date;
                     }
                     catch (Exception error)

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nUe+wO88VvQR+q3HrJRom3COmIfE1LR4QUdrCUN5dvLossmcET3yvqjfJiQ/aXfcae1kn625P0sPCu5ydx4M+w==",
+  "dgSpecHash": "tY8IqrLehHo=",
   "success": true,
-  "projectFilePath": "M:\\Projekty\\PROJEKTY 2022\\C#\\FolderLogger\\FolderLogger\\FolderLogger.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "M:\\Projekty\\PROJEKTY 2022\\C#\\FolderLogger — kopia\\FolderLogger\\FolderLogger.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AwsD\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.31\\microsoft.windows.sdk.net.ref.10.0.17763.31.nupkg.sha512"
+  ],
   "logs": []
 }
